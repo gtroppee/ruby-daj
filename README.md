@@ -30,11 +30,6 @@ To install the latest dev version
 ```ruby
 gem 'ruby-daj', git: "git://github.com/gtroppee/ruby-daj.git"
 ```
-or 
-
-```ruby
-gem specific_install -l git://github.com/gtroppee/ruby-daj.git
-```
 
 ## Formats supported
 
