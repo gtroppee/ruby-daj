@@ -2,12 +2,11 @@
 Gem::Specification.new do |s|
   s.name        = 'ruby-daj'
   s.version     = '0.0.0'
-  s.date        = '2014-06-15'
-  s.summary     = "A nice utility"
-  s.description = "A nice utility"
+  s.date        = '2014-12-06'
+  s.summary     = "Read and write data in ruby without further ado"
   s.authors     = "Guillaume Troppée"
   s.email       = 'gtroppee@gmail.com'
-  s.files       = ["lib/ruby-daj.rb"]
+  s.files       = Dir["README.md","Gemfile", "spec/*", "lib/**/*"]
   s.homepage    ='http://rubygems.org/gems/ruby-daj'
   s.license     = 'MIT'
 

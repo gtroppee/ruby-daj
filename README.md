@@ -4,22 +4,10 @@ Are you terminally annoyed by the number of unaesthetic lines you have to write 
 
 Well if this is the case, **daj** is made for you!
 
-**daj**'s philosophy is to enable you to read and write popular data formats in one simplistic line.
-
-No more of the following nonsense:
+**daj**'s philosophy is to enable you to read and write popular data formats in one simplistic line:
 
 ```ruby
-import codecs
-import json
-
-with codecs.open('path/to/your-fracking-data.json', 'r', encoding='utf-8') as jf:
-    data = json.load(jf)
-```
-
-Now, you just write:
-
-```ruby
-from daj import daj
+require 'ruby-daj'
 
 data = daj < 'path/to/your-fracking-data.json'
 ```
@@ -27,8 +15,6 @@ data = daj < 'path/to/your-fracking-data.json'
 **daj** is your quick & dirty scripting companion. No more annoying boilerplate code: you start coding things that matter right now!
 
 ## Installation
-
-With pip
 
 ```ruby
 gem 'ruby-daj'
@@ -38,7 +24,6 @@ or
 ```ruby
 gem install ruby-daj
 ```
-
 
 To install the latest dev version
 
