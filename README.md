@@ -76,9 +76,6 @@ daj(data) > 'file.txt'
 daj.json(data) > 'file.json'
 daj.yml(data) > 'file.yml'
 
-# If you want to ouput a pretty printed json
-daj.pjson(data) > 'prettyfile.json'
-
 # For csv, you can give an array of arrays or an array of objects
 # If an array of objects is given, daj will output a csv with headers.
 daj.csv(data) > 'file.csv'
